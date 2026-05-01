@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta urbana",
+      "description": "Camiseta de algodón con corte moderno y estampado minimalista.",
+      "price": 22.0,
+      "stock": 11,
+      "category": "Camisetas",
+      "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "name": "Pantalón chino",
+      "description": "Pantalón versátil para oficina o fin de semana.",
+      "price": 34.0,
+      "stock": 10,
+      "category": "Pantalones",
+      "image_url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 3,
+      "name": "Sudadera con capucha",
+      "description": "Sudadera cómoda y cálida para el día a día.",
+      "price": 39.0,
+      "stock": 8,
+      "category": "Sudaderas",
+      "image_url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 4,
+      "name": "Chaqueta ligera",
+      "description": "Chaqueta urbana para clima fresco con diseño casual.",
+      "price": 59.0,
+      "stock": 5,
+      "category": "Chaquetas",
+      "image_url": "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 5,
+      "name": "Vestido de día",
+      "description": "Vestido fresco y elegante para un look informal.",
+      "price": 48.0,
+      "stock": 6,
+      "category": "Vestidos",
+      "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "sales": [
+    {
+      "sale_id": 1,
+      "created_at": "2026-05-01T04:29:25.034455Z",
+      "customer": "Cliente demo",
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Camiseta urbana",
+          "quantity": 4,
+          "unit_price": 22.0,
+          "total": 88.0
+        }
+      ],
+      "total": 88.0,
+      "item_count": 4
+    }
+  ],
+  "next_sale_id": 2
+}
